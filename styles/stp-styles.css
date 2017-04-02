@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;  /* 1rem == 16px */
+  position: relative;
+}
+
+
+.stp-header {
+  background-color: green;
+}
+
+.stp-header h1 {
+  text-align: center;
+  font-size: 3.0rem;
+  margin: 0;
+  padding: 2rem 2rem 0;
+}
+
+.stp-header img {
+  width: 5rem;
+  border-radius: 5rem;
+  float: right;
+  margin: 1rem;
+}
+
+.stp-address {
+  width: 16rem;
+  margin: 1rem;
+}
+
+.stp-header nav {
+  background-color: gray;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.25rem 0;
+}
+
+
+main img {
+  padding: 0.1rem 0.1rem 0 0.1rem;
+  width: 100%;
+}
+
+.stp-about p {
+  margin: 1rem 2rem 0;
+  text-align: justify;
+}
+
+
+.stp-instructor {
+  margin: 1rem;
+  display: flex;
+}
+
+.stp-instructor img {
+  border: 0.2rem solid #ddd; /* Gray border */
+  width: 16rem;
+}
+
+.stp-instructor figcaption {
+  text-align: center;
+}
+
+.stp-instructor p {
+  margin: 1rem 2rem 0 0;
+}
+
+
+.stp-services img {
+  width: 16rem;
+  margin: 1rem;
+}
+
+.stp-services table {
+  margin: 1rem;
+}
+
+.stp-services th {
+  text-align: left;
+}
+
+
+.stp-footer {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.stp-non-discrimination {
+  color: black;
+  font-size: 10px;
+  margin: 0.25rem 0 1rem;
+}
+
+.stp-copyright {
+  color: white;
+  margin: 0 auto;
+}
