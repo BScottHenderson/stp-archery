@@ -85,6 +85,15 @@ main img {
   text-align: left;
 }
 
+.stp-services-private-lessons {
+  padding-bottom: 1rem;
+}
+
+.stp-services-private-lessons img {
+  height: 16rem;  /* this distorts one of the images a bit but it looks better anyway */
+  margin: 1rem;
+}
+
 
 .stp-footer {
   background-color: green;
