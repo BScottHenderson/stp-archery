@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>STP Archery</title>
     <link rel="stylesheet" type="text/css" href="../styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/grid.css" />
     <link rel="stylesheet" type="text/css" href="../styles/stp-styles.css" />
   </head>
   <body>
@@ -112,64 +113,62 @@
           </tbody>
         </table>
       </section>
-      <section>
+      <section class="stp-services-private-lessons">
         <h2>Private Lessons</h2>
         <img src="../images/lesson1.jpg" alt="private-lesson" />
         <img src="../images/lesson2.jpg" alt="private-lesson" />
-        <table>
-          <tbody>
-            <tr>
-              <th scope="row">Type</th>
-              <td>Single Lesson</td>
-            </tr>
-            <tr>
-              <th scope="row">Description</th>
-              <td>
-                1 hour of expert guidance by a USA Archery-certified coach.
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">Cost</th>
-              <td>$50</td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <th scope="row">Type</th>
-              <td>3 Lesson Package</td>
-            </tr>
-            <tr>
-              <th scope="row">Description</th>
-              <td>
-                3 lessons, 1 hour each of expert guidance by a USA Archery-certified coach.
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">Cost</th>
-              <td>$140</td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <th scope="row">Type</th>
-              <td>10 Lesson Package</td>
-            </tr>
-            <tr>
-              <th scope="row">Description</th>
-              <td>
-                10 lessons, 1 hour each of expert guidance by a USA Archery-certified coach.
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">Cost</th>
-              <td>$380</td>
-            </tr>
-          </tbody>
-        </table>
+        <!-- Column Headers -->
+        <div class="grid grid-guttered grid-gridlines">
+          <div class="grid-col-2">
+            <div class="content grid-column-header">Type</div>
+          </div>
+          <div class="grid-col-9">
+            <div class="content grid-column-header">Description</div>
+          </div>
+          <div class="grid-col-1">
+            <div class="content grid-column-header">Cost</div>
+          </div>
+        </div>
+        <!-- Data Rows -->
+        <div class="grid grid-guttered grid-gridlines">
+          <div class="grid-col-2">
+            <div class="content">Single Lesson</div>
+          </div>
+          <div class="grid-col-9">
+            <div class="content">
+              1 hour of expert guidance by a USA Archery-certified coach.
+            </div>
+          </div>
+          <div class="grid-col-1">
+            <div class="content">$50</div>
+          </div>
+        </div>
+        <div class="grid grid-guttered grid-gridlines">
+          <div class="grid-col-2">
+            <div class="content">3 Lesson Package</div>
+          </div>
+          <div class="grid-col-9">
+            <div class="content">
+              3 lessons, 1 hour each of expert guidance by a USA Archery-certified coach.
+            </div>
+          </div>
+          <div class="grid-col-1">
+            <div class="content">$140</div>
+          </div>
+        </div>
+        <div class="grid grid-guttered grid-gridlines grid-gridlines-bottom-row">
+          <div class="grid-col-2">
+            <div class="content">10 Lesson Package</div>
+          </div>
+          <div class="grid-col-9">
+            <div class="content">
+              10 lessons, 1 hour each of expert guidance by a USA Archery-certified coach.
+            </div>
+          </div>
+          <div class="grid-col-1">
+            <div class="content">$380</div>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="stp-footer">
